@@ -33,3 +33,19 @@ This is a simple roadmap intended to give a basic understanding of the project's
 - TP-Link WR703N video driver
 - Router control method
 - Combined Wi-Fi router with others' models
+## About Flymaple
+The Flymaple is our Quadcopter controller, based on Maple Project. It uses an STM32F103RET6 (ARM Cortex-M3) as the main MCU.
+###### Features
+- 72MHz STM32F103RET6 ARM Cotex-M3 microcontroller (Based on Maple RET6)
+- 64KB SRAM
+- 512KB FLASH ROM
+- ITG3205 3-Axis gyroscope
+- ADXL345 3-Axis accelerometer
+- HMC5883 3-Axis compass
+- BMP085 Barometer
+- 3x 6-Channel GPIO, used to control 6-channel ESC/Servo
+- 3x 8-Channel GPIO, used to capture RC receiver output
+- 2x USART (serial) ports ready for XBee and GPS devices
+- 2x I2C interfaces ready for ultrasonic sensor altimeters
+- Arduino Shield compatible female head interface (AREF, GND)
+- SWD/JTAG debugger compatible
