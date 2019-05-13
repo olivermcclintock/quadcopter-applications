@@ -105,3 +105,7 @@ The Euler angles are three angles introduced by Leonhard Euler to describe the o
 ###### Test the orientation filtering firmware for flymaple
 - Set the flymaple on a horizontal surface and press the reset button of flymaple
 - Open the monitor. You will see a 3 dimension cube having the same posture with flymaple
+## Resources useful for our project :
+[http://www1.udel.edu/udaily/2015/mar/trembanis-drone-data-030615.html](http://www1.udel.edu/udaily/2015/mar/trembanis-drone-data-030615.html)
+[https://www.researchgate.net/figure/A-structure-of-the-drone-model_fig2_251417046](https://www.researchgate.net/figure/A-structure-of-the-drone-model_fig2_251417046)
+[https://libguides.wustl.edu/drones4data](https://libguides.wustl.edu/drones4data)
