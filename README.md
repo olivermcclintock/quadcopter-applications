@@ -51,3 +51,36 @@ The Flymaple is our Quadcopter controller, based on Maple Project. It uses an ST
 - SWD/JTAG debugger compatible
 ###### Flymaple Pins
 **NOTE: On most ARM chips (including the STM32F103), all pins can be treated as General Input/Output (GPIO), and all pins can have another re-defined function.** 
+## Remote Control
+###### Joystick
+A 4-axis joystick is an attractive alternative to pricey RC controllers – especially for amateur hobbyists. You can easily grab the analog input events via jstest, which is bundled with most current GNU/Linux distributions.
+The following is output captured from an Xbox controller that was connected to a PC via a USB converter. 
+```
+root@horizons:/home/sam# apt-get install joystick
+...
+...
+root@horizons:/home/sam# jstest --event /dev/input/js0
+Driver version is 2.1.0.
+Joystick (Microsoft X-Box pad v2 (US)) has 8 axes (X, Y, Z, Rx, Ry, Rz, Hat0X, Hat0Y)
+and 10 buttons (BtnX, BtnY, BtnZ, BtnTL, BtnTR, BtnTL2, BtnThumbL, BtnThumbR, ?, ?).
+Testing ... (interrupt to exit)
+...
+...
+Event: type 2, time 8880328, number 1, value 28171
+Event: type 2, time 8880332, number 0, value -9015
+Event: type 2, time 8880332, number 1, value 24633
+Event: type 2, time 8880336, number 0, value -4443
+Event: type 2, time 8930728, number 3, value 15829
+Event: type 2, time 8930728, number 4, value 14862
+Event: type 2, time 8930732, number 3, value 13078
+Event: type 2, time 8930732, number 4, value 10664
+Event: type 2, time 9052172, number 2, value -13933
+Event: type 2, time 9052172, number 5, value 774
+Event: type 2, time 9052176, number 2, value -17030
+Event: type 2, time 9052176, number 5, value -4387
+...
+...
+```
+Not all joysticks can be correctly monitored by the Linux kernel, so your results may vary.
+
+To give one example, although the kernel of Ubuntu-12.04-x64 correctly interprets the button and pad events of my PlayStation2 controller (connected via a USB converter), it fails to translate the analog axis events of the same controller. 
