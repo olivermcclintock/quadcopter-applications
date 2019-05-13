@@ -12,7 +12,7 @@ This is a simple roadmap intended to give a basic understanding of the project's
 - PPM module (pulse-position modulation)
 - Manual flight (controlled by RF & remote control)
 - Simple self-balance automation (convert unit sensor values to right unit formats, filtering values, and process values)
-- RF controller (Arduino, a program to control our beloved drone that won't crash it)
+- RF controller (Arduino, a program to control our [best drone](https://mydeardrone.com/) that won't crash it)
 - PC or smartphone sensor control
 - W-Fi gateway, and advanced automation protocols
 - Advanced self-balancing (through some kind of serial interface)
