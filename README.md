@@ -12,7 +12,7 @@ This is a simple roadmap intended to give a basic understanding of the project's
 - PPM module (pulse-position modulation)
 - Manual flight (controlled by RF & remote control)
 - Simple self-balance automation (convert unit sensor values to right unit formats, filtering values, and process values)
-- RF controller (Arduino, a program to control our [best drone](https://mydeardrone.com/) that won't crash it)
+- RF controller (Arduino, a program to control our drone that won't crash it)
 - PC or smartphone sensor control
 - W-Fi gateway, and advanced automation protocols
 - Advanced self-balancing (through some kind of serial interface)
@@ -105,10 +105,12 @@ The Euler angles are three angles introduced by Leonhard Euler to describe the o
 ###### Test the orientation filtering firmware for flymaple
 - Set the flymaple on a horizontal surface and press the reset button of flymaple
 - Open the monitor. You will see a 3 dimension cube having the same posture with flymaple
-## Resources useful for our project :
+## Resources & References useful for our project :
 
 [http://www1.udel.edu/udaily/2015/mar/trembanis-drone-data-030615.html](http://www1.udel.edu/udaily/2015/mar/trembanis-drone-data-030615.html)
 
 [https://www.researchgate.net/figure/A-structure-of-the-drone-model_fig2_251417046](https://www.researchgate.net/figure/A-structure-of-the-drone-model_fig2_251417046)
+
+[https://mydeardrone.com/uses/](https://mydeardrone.com/uses/)
 
 [https://libguides.wustl.edu/drones4data](https://libguides.wustl.edu/drones4data)
