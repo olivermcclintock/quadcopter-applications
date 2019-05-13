@@ -84,3 +84,7 @@ Event: type 2, time 9052176, number 5, value -4387
 Not all joysticks can be correctly monitored by the Linux kernel, so your results may vary.
 
 To give one example, although the kernel of Ubuntu-12.04-x64 correctly interprets the button and pad events of my PlayStation2 controller (connected via a USB converter), it fails to translate the analog axis events of the same controller. 
+## What is DCM matrix
+DCM stands for direction cosine matrix. It is a method for representing a rotation through euler angles. Other methods exist as well, for example quaternion is one of the other methods.
+###### Euler angles
+The Euler angles are three angles introduced by Leonhard Euler to describe the orientation of a rigid body.
