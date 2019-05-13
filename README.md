@@ -88,3 +88,20 @@ To give one example, although the kernel of Ubuntu-12.04-x64 correctly interpret
 DCM stands for direction cosine matrix. It is a method for representing a rotation through euler angles. Other methods exist as well, for example quaternion is one of the other methods.
 ###### Euler angles
 The Euler angles are three angles introduced by Leonhard Euler to describe the orientation of a rigid body.
+## Test DCM Code
+###### Install the Processing IDE and compile the monitor
+- Download the Processing IDE
+- Uncompress the package and run processing bash script to activate - the Processing IDE 
+- Download the code of orientation filtering monitor
+- Compile code with Processing IDE
+###### Install the SDK for flymaple and compile the orientation filtering code
+- Install the command line SDK for flymaple
+- Download the flymaple code
+- Compile code with make command in the root directory of the flymaple code
+###### Upload the firmware to flymaple
+- Connect flymaple to your computer through a micro usb cable
+- Upload the firmware with make install command in the root directory of the flymaple code
+- The reset button of the flymaple should be pressed immediately after you do make install  
+###### Test the orientation filtering firmware for flymaple
+- Set the flymaple on a horizontal surface and press the reset button of flymaple
+- Open the monitor. You will see a 3 dimension cube having the same posture with flymaple
