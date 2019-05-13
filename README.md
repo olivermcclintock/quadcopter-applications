@@ -49,3 +49,5 @@ The Flymaple is our Quadcopter controller, based on Maple Project. It uses an ST
 - 2x I2C interfaces ready for ultrasonic sensor altimeters
 - Arduino Shield compatible female head interface (AREF, GND)
 - SWD/JTAG debugger compatible
+###### Flymaple Pins
+**NOTE: On most ARM chips (including the STM32F103), all pins can be treated as General Input/Output (GPIO), and all pins can have another re-defined function.** 
